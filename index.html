@@ -16,6 +16,12 @@
 <script src="js/skrollr.min.js"></script>
 <script src="js/wwb19.min.js"></script>
 <script src="js/wb19_real_estate.js?v=0"></script>
+<script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function() {
+    emailjs.init("jybbmMrzTQa3CWuqc");
+  });
+</script>
 </head>
 <body>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb19.png" alt="WYSIWYG Web Builder" style="position:absolute;left:441px;top:8154px;margin: 0;border-width:0;z-index:250" width="88" height="31"></a>
@@ -387,11 +393,15 @@
 <div id="wb_contactText">
 <span style="color:#FFFFFF;font-family:Calibri;font-size:16px;">Contact Us</span>
 </div>
-<div id="wb_contactEmail">
-<input type="text" id="contactEmail" name="email" value="" spellcheck="false" placeholder="Email Address">
-<label id="contactEmail-label" for="contactEmail">Email Address</label>
-</div>
-<input type="submit" id="contactButton" name="" value="Submit">
+
+<form>
+    <div id="wb_contactEmail">
+        <input type="text" id="contactEmail" name="email" value="" spellcheck="false" placeholder="Email Address">
+        <label id="contactEmail-label" for="contactEmail">Email Address</label>
+    </div>
+    <button type="button" id="contactButton" name="" onclick="sendEmail()" value="Submit">Submit</button>
+</form>
+
 </div>
 </div>
 <div class="col-3">
@@ -419,5 +429,24 @@
 <div id="footerBadge1"><div id="footerBadge1-text">Contact Us</div></div></div>
 </div>
 </div>
+<script>
+    
+        function sendEmail() {
+            var templateParams = {
+              your_email: document.getElementById("contactEmail").value
+            };
+        
+            emailjs.send("service_9whfgjp", "template_4aokxek", templateParams)
+              .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                alert('Your mail is sent!');
+              }, function(error) {
+                console.log('FAILED...', error);
+                alert('Oops... ' + JSON.stringify(error));
+              });
+        }
+        
+        
+</script>
 </body>
 </html>
