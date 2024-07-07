@@ -49,6 +49,11 @@ $(document).ready(function()
    });
    $("#CardContainer1").owlCarousel({autoplayTimeout:5000, autoplayHoverPause: true, autoplaySpeed:5000, slideTransition: 'linear', fluidSpeed: true, smartSpeed: 5000, margin: 40, autoplay: true, nav: false, loop: true, dots: true, responsive: {0: {items: 3},500: {items: 3}}});
    $("#CardContainer1").trigger('play.owl.autoplay');
+   $("a[href*='#LayoutGrid3']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid3').offset().top }, 600, 'easeOutExpo');
+   });
    $("a[href*='#factsLayoutGrid']").click(function(event)
    {
       event.preventDefault();
@@ -138,11 +143,6 @@ $(window).scroll( function()
    countUpfactsJavaScript4();
 });
 countUpfactsJavaScript4();
-   $("a[href*='#testimonialsLayoutGrid']").click(function(event)
-   {
-      event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#wb_testimonialsLayoutGrid').offset().top }, 600, 'easeOutExpo');
-   });
    $("a[href*='#contactLayoutGrid']").click(function(event)
    {
       event.preventDefault();

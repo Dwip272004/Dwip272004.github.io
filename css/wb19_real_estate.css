@@ -8,7 +8,8 @@ body
    background-color: #FFFFFF;
    color: #000000;
    font-family: "Open Sans";
-   font-weight: normal;
+   font-weight: 400;
+   font-weight: 400;
    font-size: 13px;
    line-height: 1.1875;
    margin: 0;
@@ -59,8 +60,8 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   flex-basis: 50%;
-   max-width: 50%;
+   flex-basis: 33.33333333%;
+   max-width: 33.33333333%;
    display: flex;
    flex-wrap: wrap;
    align-content: center;
@@ -75,8 +76,8 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   flex-basis: 50%;
-   max-width: 50%;
+   flex-basis: 66.66666667%;
+   max-width: 66.66666667%;
    display: flex;
    flex-wrap: wrap;
    align-content: flex-start;
@@ -102,7 +103,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url('images/realestate-ny4.jpg');
+   background-image: url('../images/realestate-ny4.jpg');
    background-repeat: no-repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -410,30 +411,6 @@ body
    width: 100% !important;
 }
 }
-#wb_headerMenu
-{
-   background-color: transparent;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: "Open Sans";
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   text-transform: none;
-   font-size: 17px;
-   margin: 0;
-   text-align: right;
-   overflow: hidden;
-}
-#wb_headerMenu span
-{
-   margin: 0 0px 0 10px;
-}
-#wb_headerMenu a
-{
-   color: inherit;
-   text-decoration: inherit;
-}
 #wb_listingsCard1
 {
    position: relative;
@@ -474,8 +451,8 @@ body
    margin: 25px 0 10px 0 ;
    padding: 0 20px 0 20px;
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 21px;
 }
@@ -558,7 +535,7 @@ body
 #servicesLayoutGrid > .row > .col-3
 {
    background-color: transparent;
-   background-image: url('images/housesale3.jpg');
+   background-image: url('../images/housesale3.jpg');
    background-repeat: no-repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -595,8 +572,8 @@ body
 #servicesHeading
 {
    color: #ED2A28;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 43px;
    margin: 0;
@@ -656,8 +633,8 @@ body
 #servicesCard1-card-item1 h1
 {
    color: #FFFFFF;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 24px;
    margin: 0;
@@ -731,8 +708,8 @@ body
 #servicesCard2-card-item1 h1
 {
    color: #FFFFFF;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 24px;
    margin: 0;
@@ -806,8 +783,8 @@ body
 #servicesCard3-card-item1 h1
 {
    color: #FFFFFF;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 24px;
    margin: 0;
@@ -923,8 +900,8 @@ body
 #sectionHeading
 {
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 43px;
    margin: 0;
@@ -1049,7 +1026,7 @@ body
 #featuresLayoutGrid > .row > .col-1
 {
    background-color: transparent;
-   background-image: url('images/housesale5.jpg');
+   background-image: url('../images/housesale5.jpg');
    background-repeat: no-repeat;
    background-position: center top;
    background-attachment: scroll;
@@ -1118,8 +1095,8 @@ body
 #featuresHeading
 {
    color: #FFFFFF;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 43px;
    margin: 0;
@@ -1179,8 +1156,8 @@ body
 #featuresCard1-card-item1 h1
 {
    color: #FFFFFF;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 24px;
    margin: 0;
@@ -1200,154 +1177,6 @@ body
    font-size: 13px;
    line-height: 18.2px;
    margin: 0;
-}
-#wb_matchLayoutGrid
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: #000000;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   border-radius: 0px;
-   box-sizing: border-box;
-   margin: 0 0 100px 0 ;
-   margin-right: auto;
-   margin-left: auto;
-   max-width: 1140px;
-}
-#matchLayoutGrid
-{
-   position: relative;
-   box-sizing: border-box;
-   padding: 50px 15px 50px 15px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#matchLayoutGrid > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#matchLayoutGrid > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#matchLayoutGrid > .row > .col-1
-{
-   float: left;
-}
-#matchLayoutGrid > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 100%;
-   text-align: center;
-}
-#matchLayoutGrid:before,
-#matchLayoutGrid:after,
-#matchLayoutGrid .row:before,
-#matchLayoutGrid .row:after
-{
-   display: table;
-   content: " ";
-}
-#matchLayoutGrid:after,
-#matchLayoutGrid .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#matchLayoutGrid > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
-}
-#wb_matchHeading
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   vertical-align: top;
-   margin: 0 0 25px 0 ;
-   padding: 0;
-   text-align: center;
-}
-#matchHeading
-{
-   color: #ED2A28;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
-   font-style: normal;
-   font-size: 43px;
-   margin: 0;
-   text-align: center;
-   text-transform: none;
-}
-#wb_matchText 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0 0 25px 0 ;
-   text-align: center;
-}
-#wb_matchText
-{
-   color: #FFFFFF;
-   font-family: "Open Sans";
-   font-weight: 400;
-   font-size: 15px;
-   line-height: 20px;
-}
-#wb_matchText p, #wb_matchText ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_matchText
-{
-   display: block;
-   margin: 0 0 25px 0 ;
-   box-sizing: border-box;
-   width: 100%;
-}
-#matchButton
-{
-   border: 0px solid #F43702;
-   border-radius: 0px;
-   background-color: #ED2A28;
-   background-image: none;
-   color: #FFFFFF;
-   cursor: pointer;
-   font-family: "Open Sans";
-   font-weight: normal;
-   font-style: normal;
-   font-size: 19px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0;
-}
-#matchButton:focus
-{
-   outline: 0;
 }
 #wb_featuresCard2
 {
@@ -1402,8 +1231,8 @@ body
 #featuresCard2-card-item1 h1
 {
    color: #FFFFFF;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 24px;
    margin: 0;
@@ -1477,8 +1306,8 @@ body
 #featuresCard3-card-item1 h1
 {
    color: #FFFFFF;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 24px;
    margin: 0;
@@ -1601,7 +1430,7 @@ body
    font-family: "Open Sans";
    font-weight: 400;
    font-size: 15px;
-   line-height: 20px;
+   line-height: 26px;
 }
 #wb_sectionText p, #wb_sectionText ul
 {
@@ -1630,8 +1459,8 @@ body
 #listingsHeading
 {
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 32px;
    margin: 0;
@@ -1678,8 +1507,8 @@ body
    margin: 25px 0 10px 0 ;
    padding: 0 20px 0 20px;
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 21px;
 }
@@ -1708,8 +1537,8 @@ body
    margin: 0 0 20px 0 ;
    padding: 0;
    color: #FFFFFF;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 32px;
 }
@@ -1747,33 +1576,6 @@ body
    display: block;
    padding: 10px 16px 10px 16px;
    text-decoration: none;
-}
-#matchBadge1
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   width: 131px;
-   height: 131px;
-   margin: 0;
-   z-index: 3;
-   color: #FFFFFF;
-   font-family: "Open Sans";
-   font-weight: bold;
-   font-style: normal;
-   font-size: 13px;
-   white-space: nowrap;
-   overflow: hidden;
-   box-sizing: border-box;
-}
-#matchBadge1-text
-{
-   background-color: #ED2A28;
-   transform: translateY(-50%) translateX(-50%) translateX(50px) rotate(-45deg);
-   margin-top: 50px;
-   line-height: 32px;
-   text-align: center;
-   width: 200%;
 }
 #StickyLayer
 {
@@ -1824,6 +1626,7 @@ body
 }
 #wb_Image1
 {
+   height: 100%;
    margin: 0;
    vertical-align: top;
 }
@@ -1831,15 +1634,12 @@ body
 {
    border: 0px solid #000000;
    border-radius: 0px;
-   box-sizing: border-box;
    padding: 0;
-   display: block;
+   display: inline-block;
    width: 100%;
-   height: auto;
-   max-width: 100px;
-   margin-left: auto;
-   margin-right: auto;
+   height: 100%;
    vertical-align: top;
+   object-fit: contain;
 }
 #wb_Card2
 {
@@ -1881,8 +1681,8 @@ body
    margin: 25px 0 10px 0 ;
    padding: 0 20px 0 20px;
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 21px;
 }
@@ -1992,8 +1792,8 @@ body
    margin: 25px 0 10px 0 ;
    padding: 0 20px 0 20px;
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 21px;
 }
@@ -2175,8 +1975,8 @@ body
 #Heading1
 {
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 32px;
    margin: 0;
@@ -2312,8 +2112,8 @@ body
    margin: 25px 0 10px 0 ;
    padding: 0 20px 0 20px;
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 21px;
 }
@@ -2357,8 +2157,8 @@ body
    margin: 25px 0 10px 0 ;
    padding: 0 20px 0 20px;
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 21px;
 }
@@ -2402,8 +2202,8 @@ body
    margin: 25px 0 10px 0 ;
    padding: 0 20px 0 20px;
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 21px;
 }
@@ -2447,8 +2247,8 @@ body
    margin: 25px 0 10px 0 ;
    padding: 0 20px 0 20px;
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 21px;
 }
@@ -2492,8 +2292,8 @@ body
    margin: 25px 0 10px 0 ;
    padding: 0 20px 0 20px;
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 21px;
 }
@@ -2537,10 +2337,644 @@ body
    margin: 25px 0 10px 0 ;
    padding: 0 20px 0 20px;
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 21px;
+}
+#wb_ResponsiveMenu1
+{
+   display: block;
+   font-family: "Open Sans";
+   font-weight: normal;
+   text-align: left;
+   width: 100%;
+   margin: 0;
+   z-index: 1111 !important;
+}
+#ResponsiveMenu1
+{
+   background-color: #000000;
+   height: 73px;
+}
+#wb_ResponsiveMenu1 ul
+{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+#wb_ResponsiveMenu1 ul:after
+{
+   clear: both;
+   content: "";
+   display: block;
+}
+#wb_ResponsiveMenu1 ul li
+{
+   border-radius: 0;
+   display: list-item;
+   float: left;
+   list-style: none;
+   z-index: 9999;
+}
+#wb_ResponsiveMenu1 ul li i
+{
+   font-size: 18px;
+   width: 18px;
+   margin-bottom: 0px;
+}
+#wb_ResponsiveMenu1 ul li a
+{
+   background-color: #000000;
+   color: #454545;
+   font-family: "Open Sans";
+   font-weight: normal;
+   font-size: 19px;
+   font-style: normal;
+   text-decoration: none;
+   text-transform: none;
+   padding: 15px 30px 15px 30px;
+   text-align: center;
+}
+#wb_ResponsiveMenu1 > ul > li > a 
+{
+   height: 43px;
+}
+.ResponsiveMenu1 a 
+{
+   display: block;
+}
+#wb_ResponsiveMenu1 li:hover > a, #wb_ResponsiveMenu1 li .active
+{
+   background-color: #EDEDED;
+   color: #2B2B2B;
+}
+#wb_ResponsiveMenu1 ul ul
+{
+   display: none;
+   position: absolute;
+   top: 73px;
+}
+#wb_ResponsiveMenu1 ul li:hover > ul
+{
+   display: list-item;
+}
+#wb_ResponsiveMenu1 ul ul li 
+{
+   float: none;
+   position: relative;
+   width: 119px;
+}
+#wb_ResponsiveMenu1 ul ul li a
+{
+   background-color: #F6F6F6;
+   border: 0px solid #C5C5C5;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li:hover > a, #wb_ResponsiveMenu1 ul ul li .active
+{
+   background-color: #EDEDED;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li i 
+{
+   margin-right: 6px;
+   vertical-align: middle;
+}
+#wb_ResponsiveMenu1 ul ul li a 
+{
+   padding-top: 20px;
+   padding-right: 10px;
+   padding-bottom: 15px;
+   text-align: left;
+   vertical-align: middle;
+}
+#wb_ResponsiveMenu1 ul ul ul li 
+{
+   left: 119px;
+   position: relative;
+   top: -73px;
+}
+#wb_ResponsiveMenu1 .arrow-down 
+{
+   display: inline-block;
+   width: 0;
+   height: 0;
+   margin-left: 2px;
+   vertical-align: middle;
+   border-top: 4px solid #454545;
+   border-right: 4px solid transparent;
+   border-left: 4px solid transparent;
+   border-bottom: 0 dotted;
+}
+#wb_ResponsiveMenu1 .arrow-left 
+{
+   display: inline-block;
+   width: 0;
+   height: 0;
+   margin-left: 2px;
+   vertical-align: middle;
+   border-left: 4px solid #FFFFFF;
+   border-top: 4px solid transparent;
+   border-bottom: 4px solid transparent;
+   border-right: 0 dotted;
+}
+#wb_ResponsiveMenu1 li:hover > a .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
+{ 
+   border-top-color: #2B2B2B;
+}
+#wb_ResponsiveMenu1 ul ul li:hover > a .arrow-left, #wb_ResponsiveMenu1 ul ul li .active .arrow-left
+{ 
+   border-left-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle,[id^=ResponsiveMenu1-submenu]
+{
+   display: none;
+}
+@media all and (max-width:900px) 
+{
+#wb_ResponsiveMenu1
+{
+   margin: 0;
+   text-align: left;
+}
+#wb_ResponsiveMenu1 ul li a, #wb_ResponsiveMenu1 .toggle
+{
+   font-size: 19px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   text-transform: none;
+   padding: 20px 10px 15px 20px;
+}
+#wb_ResponsiveMenu1 .toggle + a
+{
+   display: none !important;
+}
+.ResponsiveMenu1 
+{
+   display: none;
+   z-index: 9999;
+}
+#ResponsiveMenu1 
+{
+   background-color: transparent;
+}
+#wb_ResponsiveMenu1 > ul > li > a 
+{
+   height: auto !important;
+   margin: 0;
+}
+#wb_ResponsiveMenu1 .toggle 
+{
+   display: block;
+   background-color: #000000;
+   color: #454545;
+   padding: 0 10px 0 20px;
+   line-height: 53px;
+   text-decoration: none;
+   border: none;
+   position: relative;
+}
+#wb_ResponsiveMenu1 .toggle:hover
+{
+   background-color: #EDEDED;
+   color: #2B2B2B;
+}
+[id^=ResponsiveMenu1-submenu]:checked + ul 
+{
+   display: block !important;
+}
+#ResponsiveMenu1-title
+{
+   height: 73px !important;
+   line-height: 73px !important;
+   text-align: left;
+}
+#wb_ResponsiveMenu1 ul li 
+{
+   display: block;
+   width: 100% !important;
+   text-align: right;
+}
+#wb_ResponsiveMenu1 ul ul .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   padding: 0 40px;
+}
+#wb_ResponsiveMenu1 a:hover,
+#wb_ResponsiveMenu1 ul ul ul a 
+{
+   background-color: #F6F6F6;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   background-color: #F6F6F6;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul ul a 
+{
+   padding: 20px 10px 15px 60px;
+}
+#wb_ResponsiveMenu1 ul li a 
+{
+   text-align: right;
+}
+#wb_ResponsiveMenu1 ul li a br 
+{
+   display: none;
+}
+#wb_ResponsiveMenu1 ul li i 
+{
+   margin-right: 6px;
+}
+#wb_ResponsiveMenu1 ul ul 
+{
+   float: none;
+   position: static;
+}
+#wb_ResponsiveMenu1 ul ul li:hover > ul,
+#wb_ResponsiveMenu1 ul li:hover > ul 
+{
+   display: none;
+}
+#wb_ResponsiveMenu1 ul ul li 
+{
+   display: block;
+   width: 100%;
+}
+#wb_ResponsiveMenu1 ul ul ul li 
+{
+   position: static;
+}
+#ResponsiveMenu1-icon 
+{
+   display: block;
+   position: absolute;
+   right: 30px;
+   top: 24px;
+   user-select: none;
+}
+#ResponsiveMenu1-icon span 
+{
+   display: block;
+   margin-top: 4px;
+   height: 2px;
+   background-color: #454545;
+   color: #454545;
+   width: 24px;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover
+{
+   background-color: #EDEDED;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle .arrow-down 
+{
+   border-top-color: #454545;
+}
+#wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
+{
+   border-top-color: #2B2B2B;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down 
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1 ul li ul li .active .arrow-down
+{
+   border-top-color: #FFFFFF;
+}
+}
+#wb_LayoutGrid3
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #EDF3F8;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid3
+{
+   box-sizing: border-box;
+   padding: 50px 15px 50px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1140px;
+}
+#LayoutGrid3 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2
+{
+   float: left;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 66.66666667%;
+   text-align: center;
+}
+#LayoutGrid3 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 33.33333333%;
+   text-align: left;
+}
+#LayoutGrid3:before,
+#LayoutGrid3:after,
+#LayoutGrid3 .row:before,
+#LayoutGrid3 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid3:after,
+#LayoutGrid3 .row:after
+{
+   clear: both;
+}
+@media (max-width: 768px)
+{
+#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Heading2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   vertical-align: top;
+   margin: 0 0 10px 0 ;
+   padding: 0;
+   text-align: left;
+}
+#Heading2
+{
+   color: #000000;
+   font-family: "Open Sans";
+   font-weight: 700;
+   font-style: normal;
+   font-size: 43px;
+   margin: 0;
+   text-align: left;
+   text-transform: none;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0 0 25px 0 ;
+   text-align: left;
+}
+#wb_Text1
+{
+   color: #000000;
+   font-family: "Open Sans";
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 26px;
+}
+#wb_Text1 p, #wb_Text1 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text1
+{
+   display: block;
+   margin: 0 0 25px 0 ;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Image2
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image2
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 535px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
+#wb_matchLayoutGrid
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #000000;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0 0 100px 0 ;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1140px;
+}
+#matchLayoutGrid
+{
+   position: relative;
+   box-sizing: border-box;
+   padding: 50px 15px 50px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#matchLayoutGrid > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#matchLayoutGrid > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#matchLayoutGrid > .row > .col-1
+{
+   float: left;
+}
+#matchLayoutGrid > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 100%;
+   text-align: center;
+}
+#matchLayoutGrid:before,
+#matchLayoutGrid:after,
+#matchLayoutGrid .row:before,
+#matchLayoutGrid .row:after
+{
+   display: table;
+   content: " ";
+}
+#matchLayoutGrid:after,
+#matchLayoutGrid .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#matchLayoutGrid > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_matchHeading
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   vertical-align: top;
+   margin: 0 0 25px 0 ;
+   padding: 0;
+   text-align: center;
+}
+#matchHeading
+{
+   color: #ED2A28;
+   font-family: "Open Sans";
+   font-weight: 700;
+   font-style: normal;
+   font-size: 43px;
+   margin: 0;
+   text-align: center;
+   text-transform: none;
+}
+#wb_matchText 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0 0 25px 0 ;
+   text-align: center;
+}
+#wb_matchText
+{
+   color: #FFFFFF;
+   font-family: "Open Sans";
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 26px;
+}
+#wb_matchText p, #wb_matchText ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_matchText
+{
+   display: block;
+   margin: 0 0 25px 0 ;
+   box-sizing: border-box;
+   width: 100%;
+}
+#matchButton
+{
+   border: 0px solid #F43702;
+   border-radius: 0px;
+   background-color: #ED2A28;
+   background-image: none;
+   color: #FFFFFF;
+   cursor: pointer;
+   font-family: "Open Sans";
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#matchButton:focus
+{
+   outline: 0;
+}
+#matchBadge1
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 131px;
+   height: 131px;
+   margin: 0;
+   z-index: 3;
+   color: #FFFFFF;
+   font-family: "Open Sans";
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   white-space: nowrap;
+   overflow: hidden;
+   box-sizing: border-box;
+}
+#matchBadge1-text
+{
+   background-color: #ED2A28;
+   transform: translateY(-50%) translateX(-50%) translateX(50px) rotate(-45deg);
+   margin-top: 50px;
+   line-height: 32px;
+   text-align: center;
+   width: 200%;
 }
 #wb_factsLayoutGrid
 {
@@ -2551,7 +2985,7 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: url('images/realestate-ny4.jpg');
+   background-image: url('../images/realestate-ny4.jpg');
    background-repeat: no-repeat;
    background-position: center center;
    background-attachment: fixed;
@@ -2938,154 +3372,6 @@ body
    text-align: center;
    text-transform: none;
 }
-#wb_testimonialsLayoutGrid
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: none;
-   border: 1px solid transparent;
-   border-radius: 0px;
-   box-sizing: border-box;
-   margin: 0 0 100px 0 ;
-}
-#testimonialsLayoutGrid
-{
-   box-sizing: border-box;
-   width: 100%;
-   padding: 0 15px 0 15px;
-   margin-right: auto;
-   margin-left: auto;
-   max-width: 1140px;
-}
-#testimonialsLayoutGrid > .row
-{
-   display: grid;
-   grid-template-columns: 5fr 20px 5fr ;
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#testimonialsLayoutGrid > .row > .col-1, #testimonialsLayoutGrid > .row > .col-2, #testimonialsLayoutGrid > .row > .col-3
-{
-   box-sizing: border-box;
-   font-size: 0;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-   grid-column: span 12;
-}
-#testimonialsLayoutGrid > .row > .col-1, #testimonialsLayoutGrid > .row > .col-2, #testimonialsLayoutGrid > .row > .col-3
-{
-}
-#testimonialsLayoutGrid > .row > .col-1
-{
-   background-color: transparent;
-   background-image: url('images/avnish.jpg');
-   background-repeat: no-repeat;
-   background-position: center top;
-   background-attachment: scroll;
-   background-size: cover;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   grid-column: span 1;
-   flex-wrap: wrap;
-   align-content: flex-start;
-   align-self: stretch;
-   align-items: flex-start;
-   text-align: center;
-}
-#testimonialsLayoutGrid > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   grid-column: span 1;
-   flex-wrap: wrap;
-   align-content: flex-start;
-   align-self: stretch;
-   align-items: flex-start;
-   text-align: center;
-}
-#testimonialsLayoutGrid > .row > .col-3
-{
-   background-color: #EDF3F8;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   grid-column: span 1;
-   flex-wrap: wrap;
-   align-content: flex-start;
-   align-self: stretch;
-   align-items: flex-start;
-   text-align: left;
-}
-#testimonialsLayoutGrid > .row > .col-3 > .col-3-padding
-{
-   box-sizing: border-box;
-   width: 100%;
-   padding: 20px 20px 20px 20px;
-}
-@media (max-width: 768px)
-{
-#testimonialsLayoutGrid > .row > .col-1, #testimonialsLayoutGrid > .row > .col-2, #testimonialsLayoutGrid > .row > .col-3
-{
-   width: 100%;
-   grid-column: span 12;
-}
-}
-#wb_testimonialsCard3
-{
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   box-sizing: border-box;
-   margin: 0 0 20px 0 ;
-   background-color: transparent;
-   background-image: none;
-   border: 1px solid transparent;
-   border-radius: 0px;
-   text-align: left;
-}
-#testimonialsCard3-card-body
-{
-   padding: 0;
-   flex: 1 1 auto;
-   font-size: 0;
-}
-#testimonialsCard3-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0 0 20px 0;
-   color: #333333;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 24px;
-}
-#testimonialsCard3-card-item1
-{
-   box-sizing: border-box;
-   margin: 0 0 10px 0 ;
-   padding: 0;
-   text-align: justify;
-}
-#testimonialsCard3-card-item1 h1
-{
-   color: #333333;
-   font-family: "Open Sans";
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-   line-height: 29.4px;
-   margin: 0;
-}
 #wb_contactLayoutGrid
 {
    clear: both;
@@ -3348,33 +3634,6 @@ body
 {
    outline: 0;
 }
-#footerBadge1
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   width: 131px;
-   height: 131px;
-   margin: 0;
-   z-index: 3;
-   color: #FFFFFF;
-   font-family: "Open Sans";
-   font-weight: bold;
-   font-style: normal;
-   font-size: 13px;
-   white-space: nowrap;
-   overflow: hidden;
-   box-sizing: border-box;
-}
-#footerBadge1-text
-{
-   background-color: #000000;
-   transform: translateY(-50%) translateX(-50%) translateX(50px) rotate(-45deg);
-   margin-top: 50px;
-   line-height: 32px;
-   text-align: center;
-   width: 200%;
-}
 #wb_footer
 {
    clear: both;
@@ -3630,11 +3889,32 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_testimonialsCard3
+#footerBadge1
 {
-   display: flex;
-   width: 100%;
-   z-index: 53;
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 131px;
+   height: 131px;
+   margin: 0;
+   z-index: 3;
+   color: #FFFFFF;
+   font-family: "Open Sans";
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   white-space: nowrap;
+   overflow: hidden;
+   box-sizing: border-box;
+}
+#footerBadge1-text
+{
+   background-color: #000000;
+   transform: translateY(-50%) translateX(-50%) translateX(50px) rotate(-45deg);
+   margin-top: 50px;
+   line-height: 32px;
+   text-align: center;
+   width: 200%;
 }
 #wb_Card6
 {
@@ -3645,7 +3925,7 @@ body
 {
    display: block;
    width: 100%;
-   z-index: 58;
+   z-index: 60;
 }
 #contactEmail
 {
@@ -3659,14 +3939,14 @@ body
 {
    display: block;
    width: 100%;
-   z-index: 62;
+   z-index: 64;
 }
 #contactButton
 {
    display: inline-block;
    width: 95px;
    height: 32px;
-   z-index: 57;
+   z-index: 59;
 }
 #wb_factsIcon4
 {
@@ -3674,13 +3954,13 @@ body
    width: 59px;
    height: 48px;
    text-align: center;
-   z-index: 50;
+   z-index: 53;
 }
 #wb_factsJavaScript3
 {
    display: block;
    width: 100%;
-   z-index: 48;
+   z-index: 51;
 }
 #wb_servicesHeading
 {
@@ -3688,11 +3968,17 @@ body
    width: 100%;
    z-index: 8;
 }
-#wb_Image1
+#wb_ResponsiveMenu1
 {
    display: block;
    width: 100%;
-   height: auto;
+   z-index: 1;
+}
+#wb_Image1
+{
+   display: inline-block;
+   width: 277px;
+   height: 69px;
    z-index: 0;
 }
 #wb_footerIcon3
@@ -3701,7 +3987,7 @@ body
    width: 28px;
    height: 28px;
    text-align: center;
-   z-index: 61;
+   z-index: 63;
 }
 #wb_footerIcon2
 {
@@ -3709,7 +3995,7 @@ body
    width: 28px;
    height: 28px;
    text-align: center;
-   z-index: 60;
+   z-index: 62;
 }
 #wb_footerIcon1
 {
@@ -3717,20 +4003,27 @@ body
    width: 28px;
    height: 28px;
    text-align: center;
-   z-index: 59;
+   z-index: 61;
 }
 #wb_contactEmail
 {
    display: block;
    width: 100%;
    height: 36px;
-   z-index: 56;
+   z-index: 58;
 }
 #wb_factsJavaScript2
 {
    display: block;
    width: 100%;
-   z-index: 45;
+   z-index: 48;
+}
+#wb_Image2
+{
+   display: block;
+   width: 100%;
+   height: auto;
+   z-index: 38;
 }
 #Button1
 {
@@ -3788,7 +4081,7 @@ body
 {
    display: block;
    width: 100%;
-   z-index: 42;
+   z-index: 45;
 }
 #wb_Card2
 {
@@ -3804,7 +4097,7 @@ body
    width: 24px;
    height: 24px;
    text-align: center;
-   z-index: 33;
+   z-index: 30;
 }
 #wb_featuresHeading
 {
@@ -3830,7 +4123,7 @@ body
    width: 59px;
    height: 48px;
    text-align: center;
-   z-index: 41;
+   z-index: 44;
 }
 #wb_factsIcon2
 {
@@ -3838,7 +4131,7 @@ body
    width: 59px;
    height: 48px;
    text-align: center;
-   z-index: 44;
+   z-index: 47;
 }
 #wb_Card11
 {
@@ -3859,7 +4152,7 @@ body
 {
    display: block;
    width: 100%;
-   z-index: 51;
+   z-index: 54;
 }
 #wb_factsIcon3
 {
@@ -3867,18 +4160,18 @@ body
    width: 59px;
    height: 48px;
    text-align: center;
-   z-index: 47;
+   z-index: 50;
 }
 #wb_Card12
 {
    display: flex;
    z-index: 22;
 }
-#wb_headerMenu
+#wb_Heading2
 {
    display: block;
    width: 100%;
-   z-index: 1;
+   z-index: 39;
 }
 #wb_featuresCard3
 {
@@ -3903,31 +4196,31 @@ body
    display: inline-block;
    width: 200px;
    height: 50px;
-   z-index: 32;
+   z-index: 43;
 }
 #wb_factsHeading4
 {
    display: block;
    width: 100%;
-   z-index: 52;
+   z-index: 55;
 }
 #wb_factsHeading3
 {
    display: block;
    width: 100%;
-   z-index: 49;
+   z-index: 52;
 }
 #wb_factsHeading2
 {
    display: block;
    width: 100%;
-   z-index: 46;
+   z-index: 49;
 }
 #wb_factsHeading1
 {
    display: block;
    width: 100%;
-   z-index: 43;
+   z-index: 46;
 }
 #wb_welcomeCard
 {
@@ -3939,7 +4232,7 @@ body
 {
    display: block;
    width: 100%;
-   z-index: 54;
+   z-index: 56;
 }
 #StickyLayer
 {
@@ -3951,7 +4244,7 @@ body
    bottom: 25px;
    width: 50px;
    height: 50px;
-   z-index: 67;
+   z-index: 69;
 }
 #wb_Heading1
 {
@@ -3997,7 +4290,7 @@ body
 {
    display: block;
    width: 100%;
-   z-index: 30;
+   z-index: 41;
 }
 @media only screen and (max-width: 969px)
 {
@@ -4030,8 +4323,8 @@ body
 #headerLayoutGrid > .col-1
 {
    display: flex;
-   flex-basis: 50%;
-   max-width: 50%;
+   flex-basis: 33.33333333%;
+   max-width: 33.33333333%;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    align-content: center;
@@ -4042,8 +4335,8 @@ body
 #headerLayoutGrid > .col-2
 {
    display: flex;
-   flex-basis: 50%;
-   max-width: 50%;
+   flex-basis: 66.66666667%;
+   max-width: 66.66666667%;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    align-content: flex-start;
@@ -4144,23 +4437,6 @@ body
    margin-right: -15px;
    margin-left: -15px;
 }
-#wb_headerMenu
-{
-   width: 338px;
-   height: 50px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-   text-align: right;
-   font-size: 16px;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-}
-#wb_headerMenu span
-{
-   margin: 0 0px 0 10px;
-}
 #wb_listingsCard1
 {
    width: auto;
@@ -4190,8 +4466,8 @@ body
    margin: 25px 0 10px 0 ;
    padding: 0 20px 0 20px;
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 21px;
 }
@@ -4273,8 +4549,8 @@ body
 #servicesCard1-card-item1 h1
 {
    color: #FFFFFF;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 24px;
    margin: 0;
@@ -4340,8 +4616,8 @@ body
 #servicesCard2-card-item1 h1
 {
    color: #FFFFFF;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 24px;
    margin: 0;
@@ -4407,8 +4683,8 @@ body
 #servicesCard3-card-item1 h1
 {
    color: #FFFFFF;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 24px;
    margin: 0;
@@ -4477,8 +4753,8 @@ body
 #sectionHeading
 {
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 21px;
    text-align: left;
@@ -4579,8 +4855,8 @@ body
 #featuresCard1-card-item1 h1
 {
    color: #FFFFFF;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 24px;
    margin: 0;
@@ -4604,74 +4880,6 @@ body
 #wb_featuresCard1
 {
    text-align: left;
-}
-#wb_matchLayoutGrid
-{
-   visibility: visible;
-   display: table;
-}
-#wb_matchLayoutGrid
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 100px;
-}
-#matchLayoutGrid
-{
-   height: auto;
-   padding: 50px 15px 50px 15px;
-}
-#matchLayoutGrid .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#matchLayoutGrid > .row > .col-1
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#matchLayoutGrid > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#wb_matchHeading
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0 0 25px 0 ;
-   padding: 0;
-}
-#wb_matchText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_matchText
-{
-   font-size: 15px;
-   margin: 0 0 25px 0 ;
-   padding: 0;
-   text-align: center;
-   line-height: 21px;
-}
-#matchButton
-{
-   width: 200px;
-   height: 50px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-   padding: 1px 6px 1px 6px;
-   font-size: 43px;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
 }
 #wb_featuresCard2
 {
@@ -4714,8 +4922,8 @@ body
 #featuresCard2-card-item1 h1
 {
    color: #FFFFFF;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 24px;
    margin: 0;
@@ -4781,8 +4989,8 @@ body
 #featuresCard3-card-item1 h1
 {
    color: #FFFFFF;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 24px;
    margin: 0;
@@ -4895,7 +5103,7 @@ body
    margin: 0 0 25px 0 ;
    padding: 0;
    text-align: left;
-   line-height: 21px;
+   line-height: 27px;
 }
 #wb_listingsHeading
 {
@@ -4920,8 +5128,8 @@ body
 #listingsHeading
 {
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 43px;
    text-align: left;
@@ -4956,8 +5164,8 @@ body
    margin: 25px 0 10px 0 ;
    padding: 0 20px 0 20px;
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 21px;
 }
@@ -4978,8 +5186,8 @@ body
    margin: 0 0 20px 0 ;
    padding: 0;
    color: #FFFFFF;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 32px;
 }
@@ -5022,14 +5230,6 @@ body
 {
    text-align: left;
 }
-#matchBadge1
-{
-}
-#matchBadge1
-{
-   width: 131px;
-   height: 131px;
-}
 #StickyLayer
 {
    width: 50px;
@@ -5070,11 +5270,17 @@ body
 }
 #wb_Image1
 {
-   width: 100%;
+   width: 338px;
+   height: 69px;
    visibility: visible;
-   display: block;
+   display: inline-block;
    margin: 0;
    padding: 0;
+}
+#Image1
+{
+   width: 338px;
+   height: 69px;
 }
 #wb_Card2
 {
@@ -5105,8 +5311,8 @@ body
    margin: 25px 0 10px 0 ;
    padding: 0 20px 0 20px;
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 21px;
 }
@@ -5151,8 +5357,8 @@ body
    margin: 25px 0 10px 0 ;
    padding: 0 20px 0 20px;
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 21px;
 }
@@ -5238,8 +5444,8 @@ body
 #Heading1
 {
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 43px;
    text-align: left;
@@ -5283,8 +5489,8 @@ body
    margin: 25px 0 10px 0 ;
    padding: 0 20px 0 20px;
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 21px;
 }
@@ -5321,8 +5527,8 @@ body
    margin: 25px 0 10px 0 ;
    padding: 0 20px 0 20px;
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 21px;
 }
@@ -5359,8 +5565,8 @@ body
    margin: 25px 0 10px 0 ;
    padding: 0 20px 0 20px;
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 21px;
 }
@@ -5397,8 +5603,8 @@ body
    margin: 25px 0 10px 0 ;
    padding: 0 20px 0 20px;
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 21px;
 }
@@ -5435,8 +5641,8 @@ body
    margin: 25px 0 10px 0 ;
    padding: 0 20px 0 20px;
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 21px;
 }
@@ -5473,14 +5679,170 @@ body
    margin: 25px 0 10px 0 ;
    padding: 0 20px 0 20px;
    color: #000000;
-   font-family: "Open Sans Bold";
-   font-weight: bold;
+   font-family: "Open Sans";
+   font-weight: 700;
    font-style: normal;
    font-size: 21px;
 }
 #wb_Card12
 {
    text-align: left;
+}
+#wb_ResponsiveMenu1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   text-align: left;
+}
+#wb_LayoutGrid3
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutGrid3
+{
+   height: auto;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid3
+{
+   height: auto;
+   padding: 50px 15px 50px 15px;
+}
+#LayoutGrid3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_Heading2
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0 0 10px 0 ;
+   padding: 0;
+   font-size: 21px;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+}
+#wb_Heading2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   text-align: left;
+}
+#Heading2
+{
+   color: #000000;
+   font-family: "Open Sans";
+   font-weight: 700;
+   font-style: normal;
+   font-size: 21px;
+   text-align: left;
+   text-transform: none;
+}
+#wb_Text1
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text1
+{
+   font-size: 15px;
+   margin: 0 0 25px 0 ;
+   padding: 0;
+   text-align: left;
+   line-height: 27px;
+}
+#wb_Image2
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_matchLayoutGrid
+{
+   visibility: visible;
+   display: table;
+}
+#wb_matchLayoutGrid
+{
+   height: auto;
+   margin-top: 0px;
+   margin-bottom: 100px;
+}
+#matchLayoutGrid
+{
+   height: auto;
+   padding: 50px 15px 50px 15px;
+}
+#matchLayoutGrid .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#matchLayoutGrid > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#matchLayoutGrid > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_matchHeading
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0 0 25px 0 ;
+   padding: 0;
+}
+#wb_matchText
+{
+   visibility: visible;
+   display: block;
+}
+#wb_matchText
+{
+   font-size: 15px;
+   margin: 0 0 25px 0 ;
+   padding: 0;
+   text-align: center;
+   line-height: 27px;
+}
+#matchButton
+{
+   width: 200px;
+   height: 50px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 1px 6px 1px 6px;
+   font-size: 43px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+}
+#matchBadge1
+{
+}
+#matchBadge1
+{
+   width: 131px;
+   height: 131px;
 }
 #wb_factsLayoutGrid
 {
@@ -5727,70 +6089,6 @@ body
    text-align: center;
    text-transform: none;
 }
-#wb_testimonialsLayoutGrid
-{
-   visibility: visible;
-   display: table;
-}
-#wb_testimonialsLayoutGrid
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 100px;
-}
-#testimonialsLayoutGrid
-{
-   height: auto;
-   padding: 0 15px 0 15px;
-}
-#testimonialsLayoutGrid .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#testimonialsLayoutGrid > .row
-{
-   grid-template-columns: 5fr 20px 5fr ;
-}
-#wb_testimonialsCard3
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0 0 20px 0 ;
-}
-#testimonialsCard3-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0 0 20px 0;
-   color: #333333;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 24px;
-}
-#testimonialsCard3-card-item1
-{
-   box-sizing: border-box;
-   margin: 0 0 10px 0 ;
-   padding: 0;
-   text-align: justify;
-}
-#testimonialsCard3-card-item1 h1
-{
-   color: #333333;
-   font-family: "Open Sans";
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-   line-height: 29.4px;
-   margin: 0;
-}
-#wb_testimonialsCard3
-{
-   text-align: left;
-}
 #wb_contactLayoutGrid
 {
    visibility: visible;
@@ -5868,7 +6166,7 @@ body
 }
 #contactButton
 {
-   width: 22px;
+   width: 94px;
    height: 45px;
    visibility: visible;
    display: inline-block;
@@ -5878,14 +6176,6 @@ body
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
-}
-#footerBadge1
-{
-}
-#footerBadge1
-{
-   width: 131px;
-   height: 131px;
 }
 #wb_footer
 {
@@ -6023,5 +6313,13 @@ body
 {
    border-color: rgba(255,255,255,0.00);
    border-bottom-width: 50px;
+}
+#footerBadge1
+{
+}
+#footerBadge1
+{
+   width: 131px;
+   height: 131px;
 }
 }
